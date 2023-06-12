@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Creator: A.H. Abir (Ashfaque Hossain Abir) -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">  
+    <title>Notes App - A.H. Abir | Executing The Code</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/fav_icon.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Notes App - A.H. Abir | Executing The Code">
+    <meta name="description" content="Hi, I'm Ashfaque Hossain Abir, a Web Developer, Graphic Designer and Content Writer based in Bangladesh. Hire me now!">
+
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <!-- Display Username Edit Popup -->
+    <div id="overlay">
+        <div class="user-popup">
+            <button id="close">&times;</button>
+            <h2>Welcome to your notes</h2>
+            <p>Type your name and click on submit. <br> (Maximum limit: 16 characters)</p>
+            <p>User Name:</p>
+            <input type="text" id="input" placeholder="Type your name here" maxlength="16">
+            <a class="submitBtn" onclick="submit()">Submit</a>
+        </div>
+    </div>
+    
+
+    <!-- Notes Dashboard -->
+    <div class="header-wrapper">
+        <h1 class="h1">Hey <span id="username">User!</span></h1>
+        <h2 class="h2">Welcome to your Notes App</h2>
+    </div>
+    <div class="popup-box">
+        <div class="popup">
+          <div class="content">
+            <header>
+              <p></p>
+              <i class="uil uil-times"></i>
+            </header>
+            <form action="#">
+              <div class="row title">
+                <label>Title</label>
+                <input type="text" spellcheck="false">
+              </div>
+              <div class="row description">
+                <label>Description</label>
+                <textarea spellcheck="false"></textarea>
+              </div>
+              <button></button>
+            </form>
+          </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icon"><i class="uil uil-plus"></i></div>
+            <p>Add new note</p>
+        </li>
+    </div>
+    
+    
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
