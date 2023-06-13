@@ -130,14 +130,9 @@ document.addEventListener("contextmenu", (e) => {
 //========================================================================
 
 // Creating functions for Popup Box
-   window.addEventListener("load", function() {
-    setTimeout(
-        function open(event){
-            document.getElementById("overlay").style.display = "block";
-            document.querySelector(".user-popup").style.display = "block";
-        },
-        1000
-    )
+window.addEventListener("load", function() {
+    document.getElementById("overlay").style.display = "block";
+    document.querySelector(".user-popup").style.display = "block";
 });
 
 document.querySelector("#close").addEventListener("click", function() {
