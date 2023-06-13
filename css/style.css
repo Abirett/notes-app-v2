@@ -265,7 +265,7 @@ form button{
   
 /* Responsive Settings */
   
- @media (max-width: 660px){
+ @media (max-width: 675px) {
 .wrapper{
     margin: 15px;
     gap: 15px;
@@ -281,12 +281,10 @@ form button{
 .text {
   font-size: 26px;
 }
+.header-wrapper {
+    padding: 20px 0;
+    margin: 20px auto;
 }
-@media (max-width: 600px) {
-    .header-wrapper {
-        padding: 20px 0;
-        margin: 20px auto;
-    }
 }
 
 /* Username Popup Box */
@@ -364,9 +362,12 @@ a:hover {
     text-transform: capitalize;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 675px) {
     .user-popup {
         width: 450px;
+    }
+    .header-wrapper {
+        max-width: calc(100% - 15px);
     }
 }
 
